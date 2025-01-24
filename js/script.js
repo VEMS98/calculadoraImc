@@ -89,6 +89,8 @@ const backBtn = document.querySelector("#back-btn");
     weightInput.value = "";
     imcNumber.value = "";
     imcInfo.value = "";
+    imcNumber.classList = "1";
+    imcInfo.classList = "";
   }
 
   function showOrHideResults (){
